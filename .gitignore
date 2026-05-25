@@ -1,0 +1,7 @@
+echo # Eclipse files > .gitignore
+echo .classpath >> .gitignore
+echo .project >> .gitignore
+echo .settings/ >> .gitignore
+echo bin/ >> .gitignore
+echo target/ >> .gitignore
+ 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AnnotationDemo]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AnnotationDemoRun(failed)">
+    <classes>
+      <class name="pc.ch01.basics.Test_Annotation4_Demo1Test">
+        <methods>
+          <include name="CloseDBTest"/>
+          <include name="LogoutTest"/>
+          <include name="setupDBTest"/>
+          <include name="LoginTest"/>
+          <include name="Test2Test"/>
+          <include name="Test1Test"/>
+          <include name="StopserverRunTest"/>
+          <include name="runSeleniumserverTest"/>
+          <include name="browserTearDownTest"/>
+          <include name="browserSetUpTest"/>
+        </methods>
+      </class> <!-- pc.ch01.basics.Test_Annotation4_Demo1Test -->
+    </classes>
+  </test> <!-- AnnotationDemoRun(failed) -->
+</suite> <!-- Failed suite [AnnotationDemo] -->

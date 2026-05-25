@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Attributes_tryout">
+  <test thread-count="10" name="Attributes_Demo">
+    <classes>
+      <class name="pc.ch02.testAttributes.Test5_OtherAttributes"/>
+     <!-- <class name="pc.ch02.testAttributes.Test5_TestAtrr_Demo"/>-->
+    </classes>
+  </test> <!-- Attributes_Demo -->
+</suite> <!-- Attributes_tryout -->
