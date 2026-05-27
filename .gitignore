@@ -1,7 +1,10 @@
-echo # Eclipse files > .gitignore
-echo .classpath >> .gitignore
-echo .project >> .gitignore
-echo .settings/ >> .gitignore
-echo bin/ >> .gitignore
-echo target/ >> .gitignore
- 
+# Build output
+target/
+
+# TestNG report output
+test-output/
+
+# Eclipse IDE files
+.classpath
+.project
+.settings/
